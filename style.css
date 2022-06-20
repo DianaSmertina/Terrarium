@@ -1,0 +1,133 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+h1 {
+	color: #1e8516;
+	text-align: center;
+}
+#left-container {
+	background-color: #eee;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+#right-container {
+	background-color: #eee;
+	width: 15%;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+.plant-holder {
+	position: relative;
+	height: 13%;
+	right: -40px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+.jar-walls {
+	height: 60%;
+	width: 60%;
+	background: #d1e1df;
+	border-radius: 10%;
+	position: absolute;
+	bottom: 20.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+.jar-top {
+    height: 10%;
+    width: 50%;
+    background: #cbe0de;
+    position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+.jar-bottom {
+    height: 2%;
+    width: 50%;
+    background: #d1e1df;
+    position: absolute;
+	bottom: 20%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+.dirt {
+    height: 10%;
+	width: 60%;
+	background: #413621;
+	border-radius: 0 0 4rem 4rem;
+	position: absolute;
+	bottom: 21%;
+	left: 20%;
+	opacity: 0.7;
+	z-index: 2;
+}
+.jar-glossy-long {
+    height: 25%;
+	width: 3%;
+	background: #eef6ff;
+	border-radius: 25%;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+	opacity: 0.9;
+	z-index: 2;
+}
+.jar-glossy-short {
+    height: 5%;
+	width: 3%;
+	background: #eef6ff;
+	border-radius: 40%;
+	position: absolute;
+	bottom: 50%;
+	left: 5%;
+	opacity: 0.9;
+	z-index: 2;
+}
+#addButton {
+    background-color: rgb(26, 226, 126);
+	height: 7%;
+    width: 10%;
+	left: 18%;
+	top: 85%;
+	position: absolute;
+	padding: 10px;
+    z-index: 2;
+    }
+
+#addButtonFenShui {
+    background-color: rgb(26, 226, 126);
+	height: 7%;
+    width: 10%;
+	left: 30%;
+	top: 85%;
+	position: absolute;
+	padding: 10px;
+    z-index: 2;
+    }
+
+#addButtonFenShuiBack {
+    background-color: rgb(26, 226, 126);
+	height: 7%;
+    width: 10%;
+	left: 42%;
+	top: 85%;
+	position: absolute;
+	padding: 10px;
+    z-index: 2;
+    }
